@@ -1,4 +1,4 @@
-FROM node:12-slim
+FROM node:15-slim
 
 RUN apt update && apt install -y gconf-service libxext6 libxfixes3 libxi6 libxrandr2 \
   libxrender1 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 \
